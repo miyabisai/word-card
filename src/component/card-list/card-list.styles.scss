@@ -1,0 +1,11 @@
+.card-list-container{
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (max-width: 480px) {
+       flex-direction: column;
+    }
+}
